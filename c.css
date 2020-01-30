@@ -1,0 +1,38 @@
+:root{
+	font-size:25px;
+	border-image: 200px; 
+}
+body{
+	margin:0;
+	padding:0;
+	
+}
+.akash{
+	resize: 200px;
+}
+.parent{
+	margin: 5vw;
+	background: blue;
+	margin-top: 200px;
+	width: :20vh;
+	font-size: 200px;
+}
+       @media screen and (min-width: 768px){
+	.parent{
+      background: red;
+      font-size: 2vw;
+
+	}
+	.akash{
+		width: 800vw;
+	}
+	@media screen and (min-width: 480px) and (max-width: 767px){
+		.parent{
+			background: :white;
+			font-size: 1vw;
+		}
+		.akash{
+			width:500vw;
+		}
+	}
+ 
